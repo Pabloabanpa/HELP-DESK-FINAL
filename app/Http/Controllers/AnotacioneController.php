@@ -12,11 +12,7 @@ use Illuminate\View\View;
 
 class AnotacioneController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth:funcionario');
 
-    }
     /**
      * Display a listing of the resource.
      */
